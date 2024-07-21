@@ -1,0 +1,58 @@
+.bg-color {
+  background-image: radial-gradient(
+    farthest-side at 47% 28%,
+    #7d22ff -100%,
+    #131515 36%
+  );
+  min-height: calc(100vh - 80px) !important;
+  width: 100%;
+}
+
+.reletive {
+  position: relative !important;
+}
+
+/* Card Background Color */
+
+.bg-colorRefer {
+  min-height: calc(100vh - 80px) !important;
+  width: 100%;
+}
+
+.gradient-box {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(0, 100, 120, 0.4) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(217, 217, 217, 0.15) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at center,
+      rgba(0, 200, 135, 0.28) 0%,
+      transparent 70%
+    );
+  background-blend-mode: screen;
+  border-radius: 30px; /* Matches the border-radius of your card */
+}
+
+/*  */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Card  css refer */
